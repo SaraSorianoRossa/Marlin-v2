@@ -40,7 +40,7 @@ version = "^0.3.0"
 default-features = false
 
 [dependencies.ark-poly-commit]
-path = "C:/Users/sara_/OneDrive/Escritorio/TFG/Rust/poly-commit2"
+version = "^0.3.0"
 default-features = false
 
 [dependencies.ark-relations]
