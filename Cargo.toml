@@ -40,7 +40,7 @@ version = "^0.3.0"
 default-features = false
 
 [dependencies.ark-poly-commit]
-git = "https://github.com/SaraSorianoRossa/Poly-Commit.git"
+version = "^0.3.0"
 default-features = false
 
 [dependencies.ark-relations]
