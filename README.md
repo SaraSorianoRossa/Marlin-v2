@@ -1,11 +1,11 @@
 ## Descripción general
 Esta implementación viene dada a través de realizar una modificación a la [primera versión](https://github.com/SaraSorianoRossa/Marlin-v1). 
-La modificación que se ha realizado consiste en eliminar la fase de inner del algoritmo de Marlin. 
+La modificación que se ha realizado consiste en eliminar la fase de inner del [algoritmo de Marlin](https://github.com/arkworks-rs/marlin). 
 Es decir, las funciones tanto de probador como de verificador que implicaban estos envíos. 
 Además, la sección correspondiente que permitía al verificador verificar el inner_sumcheck también se eliminó del archivo mod.rs. 
 En definitiva, esta modificación ha consistido en identificar las diferentes funciones y partes que se programaron para conseguir hacer la fase del inner en Marlin.
 
-A esta implementación se han ido realizando modificaciones con tal de poder obtener un mejor rendimiento del algoritmo de Marlin:
+A esta implementación se han realizando nuevas modificaciones con tal de poder obtener un mejor rendimiento del algoritmo de Marlin:
 1. [Segunda modificación](https://github.com/SaraSorianoRossa/Marlin-v3)
 2. [Tercera modificación](https://github.com/SaraSorianoRossa/Marlin-v4)
 
